@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>License Plate Recognition</title>
+</head>
+<body>
+  <h1>License Plate Recognition</h1>
+
+  <h2>Upload an Image</h2>
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*" required />
+    <button type="submit">Recognize</button>
+  </form>
+
+  <h2>Or Use Webcam</h2>
+  <video id="webcam" autoplay width="400"></video>
+  <button id="captureBtn">Capture & Recognize</button>
+  <canvas id="canvas" style="display:none;"></canvas>
+
+  <h2>Results</h2>
+  <pre id="results"></pre>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

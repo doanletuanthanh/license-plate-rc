@@ -1,0 +1,6 @@
+ultralytics
+paddlepaddle
+paddleocr>=2.0.1
+fastapi[standard]
+uvicorn
+jinja2
